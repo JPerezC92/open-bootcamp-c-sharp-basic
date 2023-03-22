@@ -1,18 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-class Exercise1
+namespace ConsoleApp.Sesion1
 {
-
-    public void execute()
+    class Exercise1
     {
-        Console.WriteLine("Write your name");
 
-        string? name = Console.ReadLine();
+        public void execute()
+        {
+            Console.WriteLine("Write your name");
 
-        string value = name is not null && name.Count() > 0 ? name : "world";
+            string? name = Console.ReadLine();
 
-        Console.WriteLine($"Hello {value}");
+            string value = name is not null && name.Count() > 0 ? name : "world";
+
+            Console.WriteLine($"Hello {value}");
+        }
+
     }
-
 }
-

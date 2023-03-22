@@ -1,11 +1,13 @@
-﻿class Exercise2
+﻿namespace ConsoleApp.Sesion1
 {
-
-    public void execute()
+    class Exercise2
     {
-        Console.WriteLine($"Current Time: {DateTime.UtcNow.TimeOfDay.Hours}:{DateTime.UtcNow.TimeOfDay.Minutes}");
+
+        public void execute()
+        {
+            Console.WriteLine($"Current Time: {DateTime.UtcNow.TimeOfDay.Hours}:{DateTime.UtcNow.TimeOfDay.Minutes}");
+
+        }
 
     }
-
 }
-
