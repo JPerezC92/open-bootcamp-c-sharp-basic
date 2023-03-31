@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using ConsoleApp.Sesion3;
+using ConsoleApp.Sesion4;
 
-Exercise1.Execute();
+Exercise3.Execute();
